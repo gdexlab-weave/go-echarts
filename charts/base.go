@@ -1,8 +1,9 @@
 package charts
 
 import (
-	"github.com/go-echarts/go-echarts/datatypes"
 	"regexp"
+
+	"github.com/go-echarts/go-echarts/datatypes"
 )
 
 type GlobalOptser interface {
@@ -36,8 +37,8 @@ type AssetsOpts struct {
 
 // 初始化静态资源配置项
 func (opt *AssetsOpts) initAssetsOpts() {
-	opt.JSAssets.Init("echarts.min.js")
-	opt.CSSAssets.Init("bulma.min.css")
+	opt.JSAssets.Init("echarts-en.js")
+	// opt.CSSAssets.Init("bulma.min.css")
 }
 
 // 初始化静态资源配置项

@@ -41,7 +41,15 @@ type GraphLink struct {
 	// 边的目标节点名称的字符串，也支持使用数字表示源节点的索引
 	Target interface{} `json:"target,omitempty"`
 	// 边的数值，可以在力引导布局中用于映射到边的长度
-	Value float32 `json:"value,omitempty"`
+	Value string `json:"value,omitempty"`
+	// GraphLinkLabel displays a label on graphlinks similar to tooltip
+	Label GraphLinkLabel `json:"label,omitempty"`
+}
+
+// GraphLinkLabel is used on GraphLink to display a label similar to tooltip
+type GraphLinkLabel struct {
+	Show     bool `json:"show,omitempty"`
+	FontSize int  `json:"fontSize,omitempty"`
 }
 
 // GraphCategory represents a category for data nodes.

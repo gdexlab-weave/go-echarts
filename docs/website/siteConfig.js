@@ -13,15 +13,15 @@
 const siteConfig = {
   title: 'go-echarts', // Title for your website.
   tagline: '🎨 The adorable charts library for Golang',
-  url: 'https://go-echarts.github.io/go-echarts/', // Your website URL
+  url: 'https://github.com/gdexlab-weave/go-echarts/', // Your website URL
   baseUrl: '/go-echarts/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
   //   baseUrl: '/test-site/',
-  cname: 'go-echarts.github.io/go-echarts/',
+  cname: 'github.com/gdexlab-weave/go-echarts',
   // Used for publishing and more
   projectName: 'go-echarts',
-  organizationName: 'go-echarts',
+  organizationName: 'weave-lab',
   // For top-level user or org sites, the organization is still the same.
   // e.g., for the https://JoelMarcey.github.io site, it would be set like...
   //   organizationName: 'JoelMarcey'
@@ -30,11 +30,11 @@ const siteConfig = {
   headerLinks: [
     {doc: 'overview', label: 'Docs'},
     {
-      href: 'https://www.github.com/chenjiandongx',
+      href: 'https://www.github.com/gdexlab-weave',
       label: 'Author',
     },
     {
-      href: 'https://www.github.com/go-echarts/go-echarts',
+      href: 'https://github.com/gdexlab-weave/go-echarts/',
       label: 'GitHub',
     },
   ],
